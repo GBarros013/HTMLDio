@@ -1,0 +1,53 @@
+body {
+    background: #ccc;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+    
+}
+.post_cabecalho{
+    border-radius: 50px;
+    border: 3px solid black;
+}
+#title, .subtitle, .posttittle{
+    color: blue;
+}
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
+.posttitle{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post{
+    background-color: #fff;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.post_image{
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contexts_lista{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contexts_list li a {
+    text-decoration: none;
+}
