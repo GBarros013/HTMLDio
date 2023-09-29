@@ -20,29 +20,29 @@ Este é um projeto de exemplo que demonstra a criação de um contador simples u
 
 Estrutura do Código
 O código HTML está estruturado de acordo com os padrões e boas práticas de codificação. Vamos destacar as principais seções e elementos presentes no código:
-<html> 
-A tag <html> é o elemento raiz que envolve todo o conteúdo HTML da página.
+html 
+A tag html é o elemento raiz que envolve todo o conteúdo HTML da página.
 
-<head>
-A seção <head> contém informações sobre a página, como metadados e o título da página.
+head
+A seção head contém informações sobre a página, como metadados e o título da página.
 
 meta charset="UTF-8": Define a codificação de caracteres como UTF-8.
 meta name="viewport" content="width=device-width, initial-scale=1.0": Define a escala inicial para dispositivos móveis.
 title: Define o título da página exibido na barra de título do navegador.
-<body>
-A seção <body> contém o conteúdo visível da página, incluindo títulos, links, parágrafos e marcações importantes.
+body
+A seção body contém o conteúdo visível da página, incluindo títulos, links, parágrafos e marcações importantes.
 
 Seções com Títulos e Links
-Foram criadas seções com títulos usando as tags <h1>, <h2> e <small>. Os títulos são anexados a links âncora para facilitar a navegação pela página.
+Foram criadas seções com títulos usando as tags h1, h2 e small. Os títulos são anexados a links âncora para facilitar a navegação pela página.
 
 Listas e Links
-Foram utilizadas listas <ul> e <li> para criar uma lista de links de navegação.
+Foram utilizadas listas ul e li para criar uma lista de links de navegação.
 
 Parágrafos
-Os elementos <p> foram utilizados para criar parágrafos de texto explicativo.
+Os elementos p foram utilizados para criar parágrafos de texto explicativo.
 
-Marcação com <mark>
-A tag <mark> foi utilizada para destacar parte do texto.
+Marcação com mark
+A tag mark foi utilizada para destacar parte do texto.
   
 
 ## Tecnologias Utilizadas
