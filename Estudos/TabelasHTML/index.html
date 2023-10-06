@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        table thead th {
+            border: solid 1px black;
+            background-color: black;
+            color: white;
+        }
+        table tfoot td {
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    
+    <table summary="Esta tabela se refere as idades da turma A" width="250" align="center">
+        <thead>
+            <tr>
+                <th title="Nome completo">Nome</th>
+                <th title="Idade da pessoa">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Diogo</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Diogo</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Walter</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Manoela</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Michele</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
